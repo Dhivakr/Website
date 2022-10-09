@@ -1,0 +1,447 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+nav
+{
+   width: 100%;
+   height: 50px;
+   background-color: black;
+   line-height: 50px;
+   padding: 0px 80px;
+}
+.back
+{
+   background-color: black;
+   width: 100%;
+   height: 600px;
+}
+nav .logo
+{
+   float: left;
+}
+nav .logo h1
+{
+   letter-spacing: 1.0px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+nav ul li
+{
+   list-style:none ;
+   display: inline-block;
+}
+.num1 
+{
+  float: right;
+  
+  
+}
+nav ul li a
+{
+   text-decoration: none;
+   color: #fff;
+   font-size: 20px;
+   text-transform: uppercase;
+   padding: 0px 20px;
+}
+nav ul li a:hover
+{
+   color:yellowgreen;
+}
+nav ul .active
+{
+   color: white;
+}
+.checkbtn
+{
+   color:#fff ;
+   font-size: 25px;
+   cursor: pointer;
+   float: right;
+   display: none;   
+}
+#check
+{
+   display: none;
+}
+@media screen  and (max-width:538px){
+   nav{
+       padding: 0px 50px;
+   }
+   .checkbtn
+   {
+       display: block;
+   }
+  nav ul
+  {
+
+      width: 100%;
+      height: 100vh;
+      background-color: #53694c;
+      position: fixed;
+      top: 50px;
+      left:-100%;
+      text-align: center;
+      transition: 0.4s ease;
+
+  }
+  nav ul li{
+   display: block;
+   margin: 50px 0px;
+   line-height: 20px;
+}
+#check:checked ~ ul
+{
+   left:0;
+}
+}
+/*********************************************End***********************************************/
+.im
+{
+   background-image: url(images/trees-dark-night-nature-car-grass-525318-wallhere.com.jpg);
+   width:100%;
+   height:500px ;
+   background-size: cover;
+   margin-top: 20px;
+   
+}
+.im h2
+{
+   color: #fff;
+   margin-left: 10px;
+}
+.im p
+{
+   color: #fff;
+   margin-left: 10px;
+   font-size: 15px;
+}
+.botom h3
+{
+   color: rgb(50, 140, 192);
+   margin-left: 10px;
+   letter-spacing: 1.9px;
+}
+.botom p
+{
+   color: white;
+   margin-left: 10px;
+   letter-spacing: 1.5px;
+}
+.botom button
+{
+   float: right;
+   text-align: center;
+   width: 300px;
+   height:40px ;
+   letter-spacing: 1.5px;
+   margin-right: 200px;
+   background-color: white;
+}
+.logo .fa-wifi
+{
+   color: rgb(32, 138, 138);
+   font-size: 30px;
+}
+/**************************************************************End****************************/
+
+
+.box
+{
+   border: none;
+   width: 100%;
+   height:370px ;
+}
+.box1
+{
+   border: none;
+   width: 30%;
+   height:300px ;
+   float: left;
+   margin-top: 40px;
+   margin-left: 20px;
+}
+.box1 h1
+{
+   margin-left: 30px;
+   font-weight: bold;
+   margin-top: 20px;
+}
+.box2
+{
+   border: none;
+   width: 30%;
+   height:300px ;
+   float: left;
+   margin-top: 40px;
+   margin-left: 35px;
+}
+.box2 .par1 p
+{
+   font-size: 15px;
+   line-height: 30px;
+   margin-left: 50px;
+   margin-top: 20px;
+
+}
+.box2 .par2 p
+{
+   font-size: 15px;
+   line-height: 30px;
+   margin-left: 50px;
+   margin-top: 20px;
+
+}
+.box2 .fa-file
+{
+   position: absolute;
+   margin-left: 5px;
+   margin-top: 20px;
+   color: orange;
+   font-size: 40px;
+}
+.box2 .fa-envelope-o
+{
+   position: absolute;
+   margin-left: 5px;
+   margin-top: 25px;
+   color:blueviolet;
+   font-size: 40px;
+}/*******************************************************************/
+.box3
+{
+   border:none;
+   width: 30%;
+   height:300px ;
+   margin-top: 40px;
+   float: left;
+   margin-left: 33px;
+}
+.box3 .par1 p
+{
+   font-size: 15px;
+   line-height: 50px;
+   margin-left: 50px;
+   margin-top: 40px;
+
+}
+.box3 .par2 p
+{
+   font-size: 15px;
+   line-height: 50px;
+   margin-left: 50px;
+   margin-top: 60px;
+
+}
+.box3 .fa-hand-pointer-o
+{
+   position: absolute;
+   margin-left: 5px;
+   margin-top: 0px;
+   color:rgb(70, 224, 204);
+   font-size: 40px;
+}
+.box3 .fa-check
+{
+   position: absolute;
+   margin-left: 5px;
+   margin-top: 0px;
+   color:white;
+   font-size: 40px;
+   background-color: rgb(235, 55, 55);
+   border-radius: 20px;
+}
+/********************************************************************************/
+.content
+{
+   border: none;
+   width: 100%;
+   height:370px ;
+}
+.comt1
+{
+   border:none;
+   width: 46%;
+   height:300px ;
+   margin-top: 40px;
+   float: left;
+   margin-left: 33px;
+}
+.comt2
+{
+   border: none;
+   width: 46%;
+   height:300px ;
+   margin-top: 40px;
+   float: left;
+   margin-left: 33px;
+}
+.comt2 img
+{
+  background-size: cover;
+  width: 100%;
+  height:300px ;
+}
+.comt1 h1
+{
+   line-height: 35px;
+   margin-left: 20px;
+}
+.comt1 p
+{
+   line-height: 25px;
+   margin-left: 20px;
+   margin-top: 20px;
+   
+}
+/*****************************************************************************************/
+.content1
+{
+   border: none;
+   width: 100%;
+   height:500px ;
+}
+.comti2
+{
+   border: none;
+   width: 46%;
+   height:400px ;
+   margin-top: 40px;
+   float: left;
+   margin-left: 33px;
+}
+.comti1
+{
+   border: none;
+   width: 46%;
+   height:400px ;
+   margin-top: 40px;
+   float: left;
+   margin-left: 33px;
+}
+.comti1 img
+{
+  background-size: cover;
+  width: 100%;
+  height:400px ;
+}
+.comti2 h1
+{
+   line-height: 35px;
+   margin-left: 20px;
+}
+.comti2 p
+{
+   line-height: 25px;
+   margin-left: 20px;
+   margin-top: 20px;
+   
+}
+.borde
+{
+   border-top:none;
+}
+/**********************************************************************************************/
+.content2
+{
+   border:none;
+   width: 100%;
+   height:370px ;
+}
+.comt3
+{
+   border:none;
+   width: 36%;
+   height:300px ;
+   margin-top: 40px;
+   float: left;
+   margin-left: 33px;
+}
+.comt4
+{
+   border: none;
+   width: 56%;
+   height:300px ;
+   margin-top: 40px;
+   float: left;
+   margin-left: 33px;
+}
+.comt4 img
+{
+  background-size: cover;
+  width: 100%;
+  height:300px ;
+}
+.comt3 h1
+{
+   line-height: 35px;
+   margin-left: 20px;
+}
+.comt3 p
+{
+   line-height: 25px;
+   margin-left: 20px;
+   margin-top: 20px;
+   
+}
+.content3
+{
+   border: none;
+   width:100% ;
+   height:150px ;
+   background-color: rgb(61, 178, 224);
+}
+.content3 .last h1
+{
+   margin-left: 30px;
+}
+.content3 .last button
+{
+   float: right;
+   text-align: center;
+   width: 300px;
+   height:40px ;
+   letter-spacing: 1.5px;
+   background-color:black;
+   color: white;
+   margin-right: 250px;
+   
+   
+}
+
+
+
+/***************************************************************************************/
+.footer ul
+{
+   display: inline-block;
+   margin-left: 15px;
+}
+.footer
+{
+   border-bottom:solid 1px gray ;
+}
+.footer ul li a
+{
+   display: inline-block;
+   color: black;
+}
+.num2 
+{
+   float: right;
+   margin-left: 500px;
+}
+/*************************************************************************************/
+.foot h1
+{
+   margin-left: 20px;
+}
+.foot p
+{
+   line-height: 30px;
+   margin-left: 20px;
+}
